@@ -50,22 +50,22 @@
   <rect x="1" y="1" width="1198" height="298" rx="28" fill="url(#cardStars)"/>
   <path d="M56 1H196" stroke="url(#accentLine)" stroke-width="2"/>
 
-  <text x="56" y="62" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2.6">02 / FEATURED PROJECT</text>
-  <text x="1144" y="62" text-anchor="end" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2">VIEW REPO →</text>
+  <text x="56" y="62" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2.6">02 / FEATURED PROJECT</text>
+  <text x="1144" y="62" text-anchor="end" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2">VIEW REPO →</text>
 
-  <text x="56" y="128" fill="url(#titleFill)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="45" font-weight="700">ReSenderVKbot</text>
-  <text x="56" y="160" fill="#67E8F9" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18">Your VK is on Telegram</text>
+  <text x="56" y="128" fill="url(#titleFill)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700">ReSenderVKbot</text>
+  <text x="56" y="160" fill="#67E8F9" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20">Your VK is on Telegram</text>
 
-  <text x="56" y="196" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17">Мост между VK и Telegram: пересылает сообщения</text>
-  <text x="56" y="221" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17">туда, где их действительно удобно читать.</text>
+  <text x="56" y="198" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20">Мост между VK и Telegram: пересылает сообщения</text>
+  <text x="56" y="224" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20">туда, где их действительно удобно читать.</text>
 
-  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13">
-    <rect x="56" y="244" width="92" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
-    <text x="102" y="262" text-anchor="middle" fill="#C7D2FE">Python</text>
-    <rect x="156" y="244" width="104" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
-    <text x="208" y="262" text-anchor="middle" fill="#C7D2FE">Telegram</text>
-    <rect x="268" y="244" width="60" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
-    <text x="298" y="262" text-anchor="middle" fill="#C7D2FE">VK</text>
+  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="15">
+    <rect x="56" y="248" width="96" height="30" rx="15" fill="#101A2E" stroke="#263650"/>
+    <text x="104" y="268" text-anchor="middle" fill="#C7D2FE">Python</text>
+    <rect x="160" y="248" width="112" height="30" rx="15" fill="#101A2E" stroke="#263650"/>
+    <text x="216" y="268" text-anchor="middle" fill="#C7D2FE">Telegram</text>
+    <rect x="280" y="248" width="64" height="30" rx="15" fill="#101A2E" stroke="#263650"/>
+    <text x="312" y="268" text-anchor="middle" fill="#C7D2FE">VK</text>
   </g>
 
   <!-- illustration -->

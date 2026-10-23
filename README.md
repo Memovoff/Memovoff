@@ -63,7 +63,7 @@
 
 <p align="center">
   <a href="https://github.com/Memovoff?tab=repositories">
-    <img src="https://img.shields.io/badge/PUBLIC%20REPOS-2-7C3AED?style=for-the-badge&amp;labelColor=0B1020&amp;logo=github&amp;logoColor=C4B5FD" alt="Public repositories">
+    <img src="https://img.shields.io/badge/PUBLIC%20REPOS-3-7C3AED?style=for-the-badge&amp;labelColor=0B1020&amp;logo=github&amp;logoColor=C4B5FD" alt="Public repositories">
   </a>
   <a href="https://github.com/Memovoff?tab=followers">
     <img src="https://img.shields.io/github/followers/Memovoff?style=for-the-badge&amp;label=FOLLOWERS&amp;labelColor=0B1020&amp;color=7C3AED&amp;logo=github&amp;logoColor=C4B5FD" alt="Followers">

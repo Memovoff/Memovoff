@@ -58,22 +58,22 @@
   <rect x="1" y="1" width="1198" height="298" rx="28" fill="url(#cardStars)"/>
   <path d="M56 1H196" stroke="url(#accentLine)" stroke-width="2"/>
 
-  <text x="56" y="62" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2.6">01 / FEATURED PROJECT</text>
-  <text x="1144" y="62" text-anchor="end" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2">VIEW REPO →</text>
+  <text x="56" y="62" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2.6">01 / FEATURED PROJECT</text>
+  <text x="1144" y="62" text-anchor="end" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2">VIEW REPO →</text>
 
-  <text x="56" y="128" fill="url(#titleFill)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="45" font-weight="700">galaxy-nbody</text>
-  <text x="56" y="160" fill="#A78BFA" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18">Interactive GPU N-body simulation</text>
+  <text x="56" y="128" fill="url(#titleFill)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700">galaxy-nbody</text>
+  <text x="56" y="160" fill="#A78BFA" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20">Interactive GPU N-body simulation</text>
 
-  <text x="56" y="196" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17">Две спиральные галактики сталкиваются в реальном времени —</text>
-  <text x="56" y="221" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17">физика на GPU, Python + Taichi.</text>
+  <text x="56" y="198" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20">Две спиральные галактики сталкиваются в реальном времени —</text>
+  <text x="56" y="224" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20">физика на GPU, Python + Taichi.</text>
 
-  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13">
-    <rect x="56" y="244" width="92" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
-    <text x="102" y="262" text-anchor="middle" fill="#C7D2FE">Python</text>
-    <rect x="156" y="244" width="84" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
-    <text x="198" y="262" text-anchor="middle" fill="#C7D2FE">Taichi</text>
-    <rect x="248" y="244" width="120" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
-    <text x="308" y="262" text-anchor="middle" fill="#C7D2FE">MIT License</text>
+  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="15">
+    <rect x="56" y="248" width="96" height="30" rx="15" fill="#101A2E" stroke="#263650"/>
+    <text x="104" y="268" text-anchor="middle" fill="#C7D2FE">Python</text>
+    <rect x="160" y="248" width="88" height="30" rx="15" fill="#101A2E" stroke="#263650"/>
+    <text x="204" y="268" text-anchor="middle" fill="#C7D2FE">Taichi</text>
+    <rect x="256" y="248" width="124" height="30" rx="15" fill="#101A2E" stroke="#263650"/>
+    <text x="318" y="268" text-anchor="middle" fill="#C7D2FE">MIT License</text>
   </g>
 
   <!-- illustration -->
