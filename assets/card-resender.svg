@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="ReSenderVKbot — VK to Telegram message bridge">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1120"/>
+      <stop offset="0.55" stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#0A1020"/>
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 120) rotate(90) scale(270 200)">
+      <stop stop-color="#0891B2" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleFill" x1="56" y1="110" x2="430" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#ECFEFF"/>
+      <stop offset="1" stop-color="#A5F3FC"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="56" y1="0" x2="196" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bubbleViolet" x1="856" y1="174" x2="1008" y2="252" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151B33"/>
+      <stop offset="1" stop-color="#0E1528"/>
+    </linearGradient>
+    <linearGradient id="bubbleCyan" x1="1010" y1="60" x2="1148" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1B2C"/>
+      <stop offset="1" stop-color="#0A1524"/>
+    </linearGradient>
+    <linearGradient id="planeFill" x1="1014" y1="156" x2="1052" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="tinyGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <pattern id="cardStars" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="24" r="0.9" fill="#E2E8F0" opacity="0.35"/>
+      <circle cx="72" cy="12" r="0.6" fill="#A5F3FC" opacity="0.4"/>
+      <circle cx="104" cy="58" r="0.8" fill="#A5B4FC" opacity="0.3"/>
+      <circle cx="42" cy="82" r="0.6" fill="#E2E8F0" opacity="0.25"/>
+      <circle cx="88" cy="106" r="0.7" fill="#67E8F9" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="298" rx="28" fill="url(#cardBg)" stroke="#22304A" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="298" rx="28" fill="url(#cardGlow)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="28" fill="url(#cardStars)"/>
+  <path d="M56 1H196" stroke="url(#accentLine)" stroke-width="2"/>
+
+  <text x="56" y="62" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2.6">02 / FEATURED PROJECT</text>
+  <text x="1144" y="62" text-anchor="end" fill="#67E8F9" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2">VIEW REPO →</text>
+
+  <text x="56" y="128" fill="url(#titleFill)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="45" font-weight="700">ReSenderVKbot</text>
+  <text x="56" y="160" fill="#67E8F9" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18">Your VK is on Telegram</text>
+
+  <text x="56" y="196" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17">Мост между VK и Telegram: пересылает сообщения</text>
+  <text x="56" y="221" fill="#94A3B8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17">туда, где их действительно удобно читать.</text>
+
+  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="13">
+    <rect x="56" y="244" width="92" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
+    <text x="102" y="262" text-anchor="middle" fill="#C7D2FE">Python</text>
+    <rect x="156" y="244" width="104" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
+    <text x="208" y="262" text-anchor="middle" fill="#C7D2FE">Telegram</text>
+    <rect x="268" y="244" width="60" height="28" rx="14" fill="#101A2E" stroke="#263650"/>
+    <text x="298" y="262" text-anchor="middle" fill="#C7D2FE">VK</text>
+  </g>
+
+  <!-- illustration -->
+  <path d="M842 236C910 278 1044 264 1128 210" stroke="#22D3EE" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="2 8"/>
+
+  <!-- VK bubble -->
+  <g transform="translate(852 190)">
+    <rect width="158" height="80" rx="20" fill="url(#bubbleViolet)" stroke="#818CF8" stroke-opacity="0.5" stroke-width="1.2"/>
+    <rect x="0.6" y="0.6" width="156.8" height="78.8" rx="19.4" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <text x="22" y="32" fill="#A5B4FC" font-family="'Fira Code', Consolas, monospace" font-size="13" letter-spacing="1.5">VK</text>
+    <g fill="#818CF8">
+      <circle cx="88" cy="27" r="2.6" opacity="0.75"/>
+      <circle cx="100" cy="27" r="2.6" opacity="0.55"/>
+      <circle cx="112" cy="27" r="2.6" opacity="0.35"/>
+    </g>
+    <rect x="22" y="46" width="92" height="6" rx="3" fill="#818CF8" opacity="0.35"/>
+    <rect x="22" y="60" width="58" height="6" rx="3" fill="#818CF8" opacity="0.2"/>
+  </g>
+
+  <!-- TG bubble -->
+  <g transform="translate(1010 78)">
+    <rect width="138" height="70" rx="20" fill="url(#bubbleCyan)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1.2"/>
+    <rect x="0.6" y="0.6" width="136.8" height="68.8" rx="19.4" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <text x="22" y="30" fill="#67E8F9" font-family="'Fira Code', Consolas, monospace" font-size="13" letter-spacing="1.5">TG</text>
+    <path d="M84 18L110 28L98 33L94 46L89 35L84 18Z" fill="#67E8F9" opacity="0.7"/>
+    <path d="M84 18L94 35L98 33" stroke="#0A1524" stroke-width="1.2" stroke-linejoin="round"/>
+    <rect x="22" y="46" width="74" height="6" rx="3" fill="#67E8F9" opacity="0.28"/>
+  </g>
+
+  <!-- bridge arrow + plane -->
+  <path d="M1012 198C1038 190 1056 172 1066 150" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="1.2" stroke-dasharray="3 7" stroke-linecap="round"/>
+  <path d="M1058 150L1067 149L1063 157" stroke="#67E8F9" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1024 180) rotate(-30)">
+    <path d="M0 0L30 8L22 20L14 12L0 0Z" fill="url(#planeFill)"/>
+    <path d="M14 12L30 8L22 20L18 14" fill="#0A1524" opacity="0.35"/>
+  </g>
+  <circle cx="1042" cy="188" r="10" fill="#22D3EE" opacity="0.16" filter="url(#softGlow)"/>
+  <g fill="#A5F3FC">
+    <circle cx="928" cy="132" r="1.2" opacity="0.5"/>
+    <circle cx="1104" cy="190" r="1" opacity="0.4"/>
+    <circle cx="974" cy="274" r="1.1" opacity="0.35"/>
+  </g>
+  <circle cx="1048" cy="164" r="2" fill="#67E8F9" opacity="0.45" filter="url(#tinyGlow)"/>
+</svg>

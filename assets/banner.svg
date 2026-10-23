@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-label="Memovoff — C++ / Python developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04060D"/>
+      <stop offset="0.45" stop-color="#0A0F20"/>
+      <stop offset="1" stop-color="#070B16"/>
+    </linearGradient>
+    <radialGradient id="violetHalo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 200) rotate(55) scale(470 340)">
+      <stop stop-color="#7C3AED" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanHalo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 160) rotate(-40) scale(430 300)">
+      <stop stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerHalo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 180) rotate(90) scale(480 190)">
+      <stop stop-color="#312E81" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#312E81" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameFill" x1="420" y1="140" x2="870" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.35" stop-color="#E9E4FF"/>
+      <stop offset="0.7" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="ruleLeft" x1="470" y1="214" x2="632" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="ruleRight" x1="648" y1="214" x2="810" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="armViolet" x1="-160" y1="0" x2="170" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="armCyan" x1="-130" y1="0" x2="140" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="coreViolet">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="0.35" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreCyan">
+      <stop stop-color="#ECFEFF"/>
+      <stop offset="0.35" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurXL" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="blurL" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurM" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="softGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="starField" width="170" height="170" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="26" r="1" fill="#E2E8F0" opacity="0.5"/>
+      <circle cx="63" cy="11" r="0.7" fill="#A5B4FC" opacity="0.45"/>
+      <circle cx="118" cy="38" r="1.1" fill="#E2E8F0" opacity="0.28"/>
+      <circle cx="151" cy="14" r="0.6" fill="#67E8F9" opacity="0.5"/>
+      <circle cx="37" cy="67" r="0.8" fill="#CBD5E1" opacity="0.36"/>
+      <circle cx="92" cy="84" r="0.6" fill="#C4B5FD" opacity="0.5"/>
+      <circle cx="158" cy="79" r="1" fill="#E2E8F0" opacity="0.22"/>
+      <circle cx="14" cy="112" r="0.7" fill="#A5F3FC" opacity="0.4"/>
+      <circle cx="72" cy="137" r="1" fill="#E2E8F0" opacity="0.35"/>
+      <circle cx="126" cy="122" r="0.6" fill="#C4B5FD" opacity="0.4"/>
+      <circle cx="46" cy="159" r="0.8" fill="#E2E8F0" opacity="0.25"/>
+      <circle cx="148" cy="153" r="0.7" fill="#67E8F9" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#starField)"/>
+  <rect width="1280" height="360" fill="url(#violetHalo)"/>
+  <rect width="1280" height="360" fill="url(#cyanHalo)"/>
+  <rect width="1280" height="360" fill="url(#centerHalo)"/>
+
+  <!-- collision trail -->
+  <path d="M250 284C400 338 760 74 1030 150" stroke="#A78BFA" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="2 9"/>
+  <g fill="#C4B5FD">
+    <circle cx="384" cy="296" r="1.4" opacity="0.65"/>
+    <circle cx="486" cy="265" r="1" opacity="0.5"/>
+    <circle cx="604" cy="216" r="1.2" opacity="0.55"/>
+    <circle cx="726" cy="163" r="0.9" opacity="0.45"/>
+    <circle cx="842" cy="124" r="1.3" opacity="0.6"/>
+    <circle cx="956" cy="136" r="0.8" opacity="0.45"/>
+  </g>
+
+  <!-- left galaxy -->
+  <g transform="translate(172 206) rotate(-18)">
+    <ellipse rx="210" ry="92" fill="#7C3AED" opacity="0.12" filter="url(#blurXL)"/>
+    <ellipse rx="158" ry="42" fill="#6D28D9" opacity="0.18" filter="url(#blurL)"/>
+    <ellipse rx="162" ry="40" stroke="url(#armViolet)" stroke-width="1.2" opacity="0.7"/>
+    <ellipse rx="126" ry="30" stroke="#A78BFA" stroke-width="0.9" opacity="0.5"/>
+    <ellipse rx="90" ry="20" stroke="#C4B5FD" stroke-width="0.8" opacity="0.36"/>
+    <ellipse rx="56" ry="12" stroke="#EDE9FE" stroke-width="0.7" opacity="0.22"/>
+    <path d="M-152 -8C-104 -44 -8 -54 58 -30C102 -14 128 10 146 32" stroke="url(#armViolet)" stroke-width="1.6" stroke-linecap="round" opacity="0.65"/>
+    <path d="M-142 18C-84 50 16 48 78 20" stroke="#A78BFA" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+    <circle r="34" fill="url(#coreViolet)" opacity="0.6"/>
+    <circle r="12" fill="#C4B5FD" opacity="0.4" filter="url(#blurM)"/>
+    <circle r="4.5" fill="#F5F3FF"/>
+    <g fill="#DDD6FE">
+      <circle cx="-136" cy="-12" r="1.4" opacity="0.7"/>
+      <circle cx="-104" cy="-31" r="1" opacity="0.5"/>
+      <circle cx="-52" cy="-40" r="1.2" opacity="0.6"/>
+      <circle cx="12" cy="-38" r="0.8" opacity="0.45"/>
+      <circle cx="76" cy="-20" r="1.3" opacity="0.55"/>
+      <circle cx="122" cy="6" r="0.9" opacity="0.4"/>
+      <circle cx="144" cy="30" r="1.1" opacity="0.5"/>
+      <circle cx="92" cy="24" r="0.8" opacity="0.35"/>
+      <circle cx="24" cy="30" r="1" opacity="0.4"/>
+      <circle cx="-48" cy="28" r="0.7" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- right galaxy -->
+  <g transform="translate(1104 168) rotate(24) scale(0.82)">
+    <ellipse rx="200" ry="88" fill="#0891B2" opacity="0.1" filter="url(#blurXL)"/>
+    <ellipse rx="150" ry="38" fill="#0E7490" opacity="0.16" filter="url(#blurL)"/>
+    <ellipse rx="154" ry="36" stroke="url(#armCyan)" stroke-width="1.1" opacity="0.65"/>
+    <ellipse rx="118" ry="27" stroke="#67E8F9" stroke-width="0.9" opacity="0.42"/>
+    <ellipse rx="82" ry="17" stroke="#A5F3FC" stroke-width="0.7" opacity="0.3"/>
+    <path d="M-146 -6C-96 -42 -6 -50 54 -26C96 -10 122 12 140 34" stroke="url(#armCyan)" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+    <circle r="30" fill="url(#coreCyan)" opacity="0.65"/>
+    <circle r="10" fill="#A5F3FC" opacity="0.4" filter="url(#blurM)"/>
+    <circle r="4" fill="#ECFEFF"/>
+    <g fill="#A5F3FC">
+      <circle cx="-130" cy="-10" r="1.2" opacity="0.6"/>
+      <circle cx="-88" cy="-28" r="0.9" opacity="0.45"/>
+      <circle cx="-30" cy="-36" r="1.1" opacity="0.5"/>
+      <circle cx="34" cy="-30" r="0.8" opacity="0.4"/>
+      <circle cx="92" cy="-8" r="1.2" opacity="0.5"/>
+      <circle cx="130" cy="22" r="0.9" opacity="0.4"/>
+      <circle cx="60" cy="26" r="0.7" opacity="0.35"/>
+    </g>
+  </g>
+
+  <!-- bright stars -->
+  <g fill="#E2E8F0">
+    <circle cx="520" cy="54" r="1.2" opacity="0.7"/>
+    <circle cx="806" cy="42" r="1.6" opacity="0.8"/>
+    <circle cx="942" cy="78" r="1" opacity="0.5"/>
+    <circle cx="352" cy="92" r="1.1" opacity="0.6"/>
+    <circle cx="616" cy="318" r="1.4" opacity="0.5"/>
+    <circle cx="1136" cy="318" r="1" opacity="0.45"/>
+  </g>
+  <g stroke="#A5F3FC" stroke-linecap="round" opacity="0.6">
+    <path d="M806 36v12M800 42h12" stroke-width="0.8"/>
+    <path d="M352 86v12M346 92h12" stroke-width="0.7"/>
+  </g>
+
+  <!-- center content -->
+  <text x="640" y="86" text-anchor="middle" fill="#818CF8" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="12" font-weight="500" letter-spacing="5.5">C++ / PYTHON ENJOYER</text>
+
+  <text x="640" y="188" text-anchor="middle" fill="url(#nameFill)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="13">MEMOVOFF</text>
+
+  <path d="M470 214H632" stroke="url(#ruleLeft)" stroke-width="1"/>
+  <path d="M648 214H810" stroke="url(#ruleRight)" stroke-width="1"/>
+  <path d="M640 208L646 214L640 220L634 214Z" fill="#C4B5FD"/>
+  <circle cx="640" cy="214" r="1.7" fill="#FFFFFF"/>
+
+  <text x="640" y="252" text-anchor="middle" fill="#94A3B8" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="14" letter-spacing="3.2">GPU SIMULATIONS · TELEGRAM BOTS · SYSTEMS PROGRAMMING</text>
+
+  <text x="640" y="320" text-anchor="middle" fill="#6366F1" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1.5">github.com/Memovoff</text>
+
+  <path d="M0 1H1280" stroke="#1E293B" stroke-opacity="0.75"/>
+  <path d="M0 359H1280" stroke="#1E293B" stroke-opacity="0.75"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="390" viewBox="0 0 520 390" fill="none" role="img" aria-label="Terminal card: Memovoff, C++ / Python developer">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="520" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1120"/>
+      <stop offset="1" stop-color="#080D19"/>
+    </linearGradient>
+    <radialGradient id="termGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(470 34) rotate(130) scale(230 180)">
+      <stop stop-color="#7C3AED" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="termGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#334155" stroke-opacity="0.13" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="termRule" x1="22" y1="0" x2="498" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cursorGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="388" rx="22" fill="url(#termBg)" stroke="#22304A" stroke-width="1.5"/>
+  <rect x="1" y="1" width="518" height="388" rx="22" fill="url(#termGlow)"/>
+  <rect x="1" y="46" width="518" height="342" rx="0" fill="url(#termGrid)"/>
+  <path d="M1 46H519" stroke="url(#termRule)" stroke-width="1"/>
+
+  <circle cx="26" cy="24" r="4" fill="#F87171" opacity="0.75"/>
+  <circle cx="42" cy="24" r="4" fill="#FBBF24" opacity="0.75"/>
+  <circle cx="58" cy="24" r="4" fill="#34D399" opacity="0.75"/>
+  <text x="260" y="28" text-anchor="middle" fill="#64748B" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="11">memovoff@github: ~</text>
+
+  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="18">
+    <text x="36" y="86">
+      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan><tspan fill="#E2E8F0">whoami</tspan>
+    </text>
+    <text x="36" y="116" fill="#C4B5FD">Memovoff <tspan fill="#64748B">· C++ / Python developer</tspan></text>
+
+    <text x="36" y="158">
+      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan><tspan fill="#E2E8F0">cat focus.txt</tspan>
+    </text>
+    <text x="36" y="188" fill="#94A3B8">GPU simulations</text>
+    <text x="36" y="218" fill="#94A3B8">Telegram bots</text>
+    <text x="36" y="248" fill="#94A3B8">systems &amp; performance</text>
+
+    <text x="36" y="290">
+      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan><tspan fill="#E2E8F0">status</tspan>
+    </text>
+    <text x="36" y="320">
+      <tspan fill="#22D3EE">●</tspan><tspan fill="#C7D2FE"> open to interesting projects</tspan>
+    </text>
+
+    <text x="36" y="362">
+      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan>
+    </text>
+  </g>
+  <rect x="242" y="347" width="10" height="18" rx="1.5" fill="#67E8F9" opacity="0.9"/>
+  <rect x="242" y="347" width="10" height="18" rx="1.5" fill="#67E8F9" opacity="0.35" filter="url(#cursorGlow)"/>
+</svg>
