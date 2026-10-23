@@ -1,60 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="390" viewBox="0 0 520 390" fill="none" role="img" aria-label="Terminal card: Memovoff, C++ / Python developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="390" viewBox="0 0 520 390" fill="none" role="img" aria-label="Terminal: Memovoff — C++ / Python, bots, automation, backend, online">
   <defs>
-    <linearGradient id="termBg" x1="0" y1="0" x2="520" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A1120"/>
-      <stop offset="1" stop-color="#080D19"/>
-    </linearGradient>
-    <radialGradient id="termGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(470 34) rotate(130) scale(230 180)">
-      <stop stop-color="#7C3AED" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="termGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" stroke="#334155" stroke-opacity="0.13" stroke-width="1"/>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#F2F0EB" opacity="0.02"/>
     </pattern>
-    <linearGradient id="termRule" x1="22" y1="0" x2="498" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A78BFA" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="cursorGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <filter id="dotGlow" x="-200%" y="-200%" width="500%" height="500%">
       <feGaussianBlur stdDeviation="3"/>
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="518" height="388" rx="22" fill="url(#termBg)" stroke="#22304A" stroke-width="1.5"/>
-  <rect x="1" y="1" width="518" height="388" rx="22" fill="url(#termGlow)"/>
-  <rect x="1" y="46" width="518" height="342" rx="0" fill="url(#termGrid)"/>
-  <path d="M1 46H519" stroke="url(#termRule)" stroke-width="1"/>
+  <rect x="9" y="9" width="510" height="380" fill="#FF2B2B" opacity="0.16"/>
+  <rect x="1" y="1" width="510" height="380" fill="#080808" stroke="#F2F0EB" stroke-opacity="0.28" stroke-width="1.5"/>
+  <rect x="3" y="3" width="506" height="376" fill="url(#scan)"/>
 
-  <circle cx="26" cy="24" r="4" fill="#F87171" opacity="0.75"/>
-  <circle cx="42" cy="24" r="4" fill="#FBBF24" opacity="0.75"/>
-  <circle cx="58" cy="24" r="4" fill="#34D399" opacity="0.75"/>
-  <text x="260" y="28" text-anchor="middle" fill="#64748B" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="11">memovoff@github: ~</text>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <rect x="3" y="3" width="506" height="45" fill="#0A0A0A"/>
+    <path d="M3 48H509" stroke="#F2F0EB" stroke-opacity="0.16"/>
+    <rect x="20" y="19" width="6" height="6" fill="#FF2B2B"/>
+    <text x="38" y="31" fill="#F2F0EB" font-size="12" letter-spacing="2" font-weight="700">MEMOVOFF / TERMINAL</text>
+    <circle cx="442" cy="27" r="3" fill="#FF2B2B"/>
+    <text x="492" y="31" fill="#8C8C8C" font-size="10" letter-spacing="1.5" text-anchor="end">ONLINE</text>
 
-  <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="18">
-    <text x="36" y="86">
-      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan><tspan fill="#E2E8F0">whoami</tspan>
-    </text>
-    <text x="36" y="116" fill="#C4B5FD">Memovoff <tspan fill="#64748B">· C++ / Python developer</tspan></text>
+    <text x="36" y="90" fill="#FF2B2B" font-size="18" font-weight="700">memovoff@dev:~$</text>
+    <text x="216" y="90" fill="#F2F0EB" font-size="18">whoami</text>
+    <text x="36" y="118" fill="#F2F0EB" font-size="18" font-weight="700">Memovoff</text>
 
-    <text x="36" y="158">
-      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan><tspan fill="#E2E8F0">cat focus.txt</tspan>
-    </text>
-    <text x="36" y="188" fill="#94A3B8">GPU simulations</text>
-    <text x="36" y="218" fill="#94A3B8">Telegram bots</text>
-    <text x="36" y="248" fill="#94A3B8">systems &amp; performance</text>
+    <text x="36" y="154" fill="#FF2B2B" font-size="18" font-weight="700">memovoff@dev:~$</text>
+    <text x="216" y="154" fill="#F2F0EB" font-size="18">stack</text>
+    <text x="36" y="182" fill="#A3A3A3" font-size="18">C++ / Python / Git / Telegram</text>
 
-    <text x="36" y="290">
-      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan><tspan fill="#E2E8F0">status</tspan>
-    </text>
-    <text x="36" y="320">
-      <tspan fill="#22D3EE">●</tspan><tspan fill="#C7D2FE"> open to interesting projects</tspan>
-    </text>
+    <text x="36" y="218" fill="#FF2B2B" font-size="18" font-weight="700">memovoff@dev:~$</text>
+    <text x="216" y="218" fill="#F2F0EB" font-size="18">focus</text>
+    <text x="36" y="246" fill="#A3A3A3" font-size="18">bots / automation / backend</text>
 
-    <text x="36" y="362">
-      <tspan fill="#67E8F9">memovoff@github</tspan><tspan fill="#475569">:~$ </tspan>
-    </text>
+    <text x="36" y="282" fill="#FF2B2B" font-size="18" font-weight="700">memovoff@dev:~$</text>
+    <text x="216" y="282" fill="#F2F0EB" font-size="18">status</text>
+    <circle cx="43" cy="305" r="5" fill="#FF2B2B"/>
+    <circle cx="43" cy="305" r="11" fill="#FF2B2B" opacity="0.22" filter="url(#dotGlow)"/>
+    <text x="58" y="310" fill="#F2F0EB" font-size="18" font-weight="700">ONLINE</text>
+
+    <text x="36" y="356" fill="#FF2B2B" font-size="18" font-weight="700">memovoff@dev:~$</text>
+    <rect x="216" y="340" width="10" height="19" fill="#FF2B2B"/>
+    <text x="492" y="368" fill="#6B6B6B" font-size="9" letter-spacing="1.5" text-anchor="end">SYS.OK</text>
   </g>
-  <rect x="242" y="347" width="10" height="18" rx="1.5" fill="#67E8F9" opacity="0.9"/>
-  <rect x="242" y="347" width="10" height="18" rx="1.5" fill="#67E8F9" opacity="0.35" filter="url(#cursorGlow)"/>
 </svg>

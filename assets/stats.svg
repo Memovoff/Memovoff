@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" fill="none" role="img" aria-label="System info: stack C++ / Python; focus bots / backend; UTC+3; online">
+  <rect x="1" y="1" width="1198" height="148" fill="#080808" stroke="#F2F0EB" stroke-opacity="0.24" stroke-width="1.5"/>
+  <rect x="3" y="3" width="1194" height="144" fill="none" stroke="#F2F0EB" stroke-opacity="0.05"/>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="48" y="36" fill="#FF2B2B" font-size="12" letter-spacing="2.5" font-weight="700">[ SYSTEM INFO ]</text>
+    <circle cx="1108" cy="32" r="3" fill="#FF2B2B"/>
+    <text x="1152" y="36" fill="#6B6B6B" font-size="10" letter-spacing="2" text-anchor="end">LIVE</text>
+    <path d="M48 52H1152" stroke="#F2F0EB" stroke-opacity="0.12"/>
+  </g>
+
+  <g stroke="#F2F0EB" stroke-opacity="0.1" stroke-dasharray="4 6">
+    <path d="M312 64V132"/>
+    <path d="M600 64V132"/>
+    <path d="M888 64V132"/>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="2" fill="#FF2B2B">
+    <text x="48" y="78">STACK</text>
+    <text x="336" y="78">FOCUS</text>
+    <text x="624" y="78">TIMEZONE</text>
+    <text x="912" y="78">STATUS</text>
+  </g>
+
+  <g font-family="'Arial Black', Impact, 'Segoe UI', sans-serif" font-weight="900" font-size="22" fill="#F2F0EB" letter-spacing="0.5">
+    <text x="48" y="112">C++ / PYTHON</text>
+    <text x="336" y="112">BOTS / BACKEND</text>
+    <text x="624" y="112">UTC+3</text>
+  </g>
+  <circle cx="918" cy="105" r="5" fill="#FF2B2B"/>
+  <circle cx="918" cy="105" r="10" fill="#FF2B2B" opacity="0.15"/>
+  <text x="932" y="112" font-family="'Arial Black', Impact, 'Segoe UI', sans-serif" font-weight="900" font-size="22" fill="#F2F0EB" letter-spacing="0.5">ONLINE</text>
+
+  <g fill="#F2F0EB" opacity="0.16">
+    <rect x="48" y="134" width="2" height="6"/>
+    <rect x="54" y="134" width="1" height="6"/>
+    <rect x="59" y="134" width="3" height="6"/>
+    <rect x="66" y="134" width="1" height="6"/>
+    <rect x="71" y="134" width="2" height="6"/>
+    <rect x="77" y="134" width="4" height="6"/>
+    <rect x="85" y="134" width="1" height="6"/>
+    <rect x="90" y="134" width="2" height="6"/>
+    <rect x="96" y="134" width="1" height="6"/>
+    <rect x="101" y="134" width="3" height="6"/>
+    <rect x="108" y="134" width="1" height="6"/>
+    <rect x="113" y="134" width="2" height="6"/>
+    <rect x="119" y="134" width="3" height="6"/>
+    <rect x="126" y="134" width="1" height="6"/>
+    <rect x="131" y="134" width="2" height="6"/>
+    <rect x="137" y="134" width="4" height="6"/>
+  </g>
+</svg>
